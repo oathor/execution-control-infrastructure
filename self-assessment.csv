@@ -1,0 +1,22 @@
+﻿"Self-assessment form. Criteria for Execution Control Infrastructure published by OATHOR LTD"
+"Published by OATHOR LTD. Source: https://oathor.com/execution-control-infrastructure. Reproduction is permitted under https://oathor.com/terms#licence."
+"Application notes: https://oathor.com/execution-control#application-notes"
+
+"Control assessed",""
+"Provider",""
+"Actions it governs",""
+"Assessed by",""
+"Date of assessment",""
+
+"ID","Question","Yes","No","Evidence and explanation"
+"ECI-1","Is the determination made outside the system that takes the action?","","",""
+"ECI-2","Is it beyond the reach of the actor, so that the actor cannot determine, alter, satisfy, bypass or substitute the conditions of its own clearance?","","",""
+"ECI-3","Is it free of control by the function or provider that operates or supplies the acting system?","","",""
+"ECI-4","Is it made before consequence exists, while the action is still preventable?","","",""
+"ECI-5","Does it decide whether this specific action is cleared to become consequence, or only whether the actor is permitted?","","",""
+"ECI-6","Is it applied at the Execution Boundary as a matter of course, not only as an occasional review or exception?","","",""
+"ECI-7","Is the record created at the moment of determination, rather than reconstructed afterwards?","","",""
+
+"Record yes where the control meets the question and no where it does not, with the evidence and explanation for the answer. Leave both blank where the available evidence does not answer the question, and report it as silent. Apply each question with its application note."
+"A completed self-assessment is the record of the person who completed it. It is not an assessment, certification or endorsement by OATHOR LTD. The form may be completed, reproduced, incorporated into assessment or procurement materials, and shared for the purpose of applying the criteria, with credit to OATHOR LTD and a link to the canonical source, provided that the wording, identifiers and meaning of the criteria are not altered."
+"A control that answers yes to all seven meets the criteria for Execution Control Infrastructure. A control that answers no to any of the first three remains inside the authority of the system it governs."

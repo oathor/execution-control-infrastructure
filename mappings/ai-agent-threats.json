@@ -1,0 +1,192 @@
+{
+  "name": "AI agent threats and the Execution Boundary",
+  "publisher": "OATHOR LTD",
+  "canonical_source": "https://oathor.com/ai-agent-threats",
+  "note": "Analysis by OATHOR LTD. If this file and the website ever differ, the website prevails. OWASP and MITRE ATLAS identifiers and names are used for reference only; no association with, or endorsement by, OWASP or MITRE is implied.",
+  "criteria_file": "../criteria.json",
+  "groups": [
+    {
+      "id": "hijacking",
+      "question": "How do you stop prompt injection or agent hijacking from causing harm?",
+      "criteria": [
+        "ECI-1",
+        "ECI-2",
+        "ECI-5"
+      ],
+      "owasp": [
+        {
+          "id": "ASI01",
+          "name": "Agent Goal Hijack",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "ASI06",
+          "name": "Memory & Context Poisoning",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "ASI10",
+          "name": "Rogue Agents",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "LLM01:2025",
+          "name": "Prompt Injection",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "id": "AML.T0051",
+          "name": "LLM Prompt Injection",
+          "url": "https://atlas.mitre.org/techniques/AML.T0051"
+        },
+        {
+          "id": "AML.T0080",
+          "name": "AI Agent Context Poisoning",
+          "url": "https://atlas.mitre.org/techniques/AML.T0080"
+        }
+      ],
+      "url": "https://oathor.com/ai-agent-threats#hijacking"
+    },
+    {
+      "id": "agency",
+      "question": "What stops an AI agent from misusing its tools or exceeding its authority?",
+      "criteria": [
+        "ECI-2",
+        "ECI-5",
+        "ECI-6"
+      ],
+      "owasp": [
+        {
+          "id": "ASI02",
+          "name": "Tool Misuse and Exploitation",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "ASI03",
+          "name": "Identity and Privilege Abuse",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "LLM06:2025",
+          "name": "Excessive Agency",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "id": "AML.T0053",
+          "name": "AI Agent Tool Invocation",
+          "url": "https://atlas.mitre.org/techniques/AML.T0053"
+        },
+        {
+          "id": "AML.T0083",
+          "name": "Credentials from AI Agent Configuration",
+          "url": "https://atlas.mitre.org/techniques/AML.T0083"
+        },
+        {
+          "id": "AML.T0086",
+          "name": "Exfiltration via AI Agent Tool Invocation",
+          "url": "https://atlas.mitre.org/techniques/AML.T0086"
+        },
+        {
+          "id": "AML.T0101",
+          "name": "Data Destruction via AI Agent Tool Invocation",
+          "url": "https://atlas.mitre.org/techniques/AML.T0101"
+        }
+      ],
+      "url": "https://oathor.com/ai-agent-threats#agency"
+    },
+    {
+      "id": "supply-chain",
+      "question": "Can the provider of an agent or tool control whether its own agent’s actions proceed?",
+      "criteria": [
+        "ECI-1",
+        "ECI-3"
+      ],
+      "owasp": [
+        {
+          "id": "ASI04",
+          "name": "Agentic Supply Chain Vulnerabilities",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "id": "AML.T0010",
+          "name": "AI Supply Chain Compromise",
+          "url": "https://atlas.mitre.org/techniques/AML.T0010"
+        },
+        {
+          "id": "AML.T0110",
+          "name": "AI Agent Tool Poisoning",
+          "url": "https://atlas.mitre.org/techniques/AML.T0110"
+        }
+      ],
+      "url": "https://oathor.com/ai-agent-threats#supply-chain"
+    },
+    {
+      "id": "spread",
+      "question": "How do you stop a harmful agent action before it spreads?",
+      "criteria": [
+        "ECI-1",
+        "ECI-4",
+        "ECI-6"
+      ],
+      "owasp": [
+        {
+          "id": "ASI05",
+          "name": "Unexpected Code Execution (RCE)",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "ASI07",
+          "name": "Insecure Inter-Agent Communication",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        },
+        {
+          "id": "ASI08",
+          "name": "Cascading Failures",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "id": "AML.T0050",
+          "name": "Command and Scripting Interpreter",
+          "url": "https://atlas.mitre.org/techniques/AML.T0050"
+        }
+      ],
+      "url": "https://oathor.com/ai-agent-threats#spread"
+    },
+    {
+      "id": "approval",
+      "question": "Is human approval enough to control an AI agent?",
+      "criteria": [
+        "ECI-2",
+        "ECI-5",
+        "ECI-7"
+      ],
+      "owasp": [
+        {
+          "id": "ASI09",
+          "name": "Human-Agent Trust Exploitation",
+          "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "id": "AML.T0067",
+          "name": "LLM Trusted Output Components Manipulation",
+          "url": "https://atlas.mitre.org/techniques/AML.T0067"
+        }
+      ],
+      "url": "https://oathor.com/ai-agent-threats#approval"
+    }
+  ],
+  "principles": [
+    "A system should not be the sole authority over its own consequential actions.",
+    "Permissioned, authenticated, approved or prepared does not necessarily mean cleared to become consequence."
+  ]
+}

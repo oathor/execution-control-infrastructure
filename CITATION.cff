@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these definitions or criteria, please cite them as below. Reproduction is permitted under https://oathor.com/terms#licence."
+title: "Criteria for Execution Control Infrastructure"
+type: dataset
+authors:
+  - name: "OATHOR LTD"
+    website: "https://oathor.com"
+url: "https://oathor.com/execution-control-infrastructure"
+repository-code: "https://github.com/oathor/execution-control-infrastructure"
+license-url: "https://oathor.com/terms#licence"
+keywords:
+  - Execution Control Infrastructure
+  - Execution Boundary
+  - Independent Clearance Determination
+  - Human Authority Layer
+  - AI agents
+  - independent control
+  - AI agent security
+  - agentic AI
+  - prompt injection
+  - excessive agency
+  - agent hijacking
+  - AI governance
+  - OWASP Top 10 for Agentic Applications
+  - MITRE ATLAS
+  - self-assessment
