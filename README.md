@@ -71,7 +71,7 @@ More citation formats: [oathor.com/cite](https://oathor.com/cite)
 - Wikidata: [OATHOR LTD (Q141636063)](https://www.wikidata.org/wiki/Q141636063), [Execution Control Infrastructure (Q141636104)](https://www.wikidata.org/wiki/Q141636104)
 
 Publication of a consultation response by the Basel Committee, the BIS or the FSB is a public record, not an endorsement.
-Research paper: [Independent Clearance Before Consequence (Version 1.0, October 2026)](https://oathor.com/research#independent-clearance-before-consequence)
+Research paper, Independent Clearance Before Consequence, Version 1.0, October 2026: [oathor.com/research](https://oathor.com/research#independent-clearance-before-consequence) · DOI: [10.2139/ssrn.7584298](https://doi.org/10.2139/ssrn.7584298)
 
 ## Permission to reproduce
 
